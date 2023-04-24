@@ -1,5 +1,5 @@
-from aps3 import WorkOrder, Operation, WorkCenter, GeneticAlgorithmAPS
-import matplotlib.pyplot as plt
+from aps4 import WorkOrder, Operation, WorkCenter, GeneticAlgorithmAPS
+#import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
     work_orders = [WorkOrder(0, 'item0',

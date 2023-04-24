@@ -1,0 +1,40 @@
+{
+    "orders": [
+        {
+            "order_id": 5,
+            "item_id": "P20",
+            "operations": [
+                {
+                    "order_id": 5,
+                    "item_id": "P20",
+                    "operation_id": 5,
+                    "work_center_name": "W5",
+                    "processing_time": 7
+                }
+            ],
+            "due_date": 28,
+            "start_date": 18
+        }
+    ],
+    "routing": [
+        {
+            "work_center_name": "W5",
+            "operation_ids": [
+                1,
+                3,
+                2,
+                4,
+                5
+            ]
+        }
+    ],
+    "work_centers": [
+        {
+            "name": "W5",
+            "resources": {
+                "worker": 2,
+                "machine": 5
+            }
+        }
+    ]
+}
